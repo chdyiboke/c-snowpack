@@ -1,5 +1,6 @@
 # c-snowpack
 
+## 初始化一个关于 snowpack 的 react 项目
 npm init -y
 
 
@@ -37,3 +38,6 @@ module.exports = {
 };
 
 ``` 
+
+## 启动
+npm run dev
