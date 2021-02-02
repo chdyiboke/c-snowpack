@@ -1,0 +1,37 @@
+{
+  "name": "c-snowpack",
+  "version": "1.0.0",
+  "description": "npm init -y",
+  "main": "index.js",
+  "scripts": {
+    "dev": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chdyiboke/c-snowpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chdyiboke/c-snowpack/issues"
+  },
+  "homepage": "https://github.com/chdyiboke/c-snowpack#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-react": "^7.12.10",
+    "servor": "^4.0.2",
+    "snowpack": "^3.0.11"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.12.11",
+    "@snowpack/plugin-babel": "^2.1.6",
+    "@snowpack/plugin-dotenv": "^2.0.5",
+    "@snowpack/plugin-react-refresh": "^2.4.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
