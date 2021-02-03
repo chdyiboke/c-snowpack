@@ -3,6 +3,7 @@
 /es
 /bin/
 /lib
+/build
 /node_modules
 /umd
 /.eslintcache
